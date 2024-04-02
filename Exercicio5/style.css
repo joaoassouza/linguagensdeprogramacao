@@ -1,0 +1,83 @@
+titulo {
+  color: aliceblue;
+  font-size: large;
+}
+
+header {
+  width: 200px;
+  background-color: black;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+body {
+  background-color: #2f4538;
+  color: aliceblue;
+  display: block;
+  text-align: -webkit-center;
+  unicode-bidi: isolate;
+}
+
+img {
+  border-radius: 5px;
+  border: 3px solid bisque;
+}
+
+section1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+section img {
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+section p {
+  flex: 1;
+  text-align: left;
+}
+
+section2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+section2 img {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+section2 p {
+    text-align: right;
+  }
+/* fontes */
+.abeezee-regular {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.abeezee-regular-italic {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
