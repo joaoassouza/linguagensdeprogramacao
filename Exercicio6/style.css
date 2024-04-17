@@ -1,0 +1,89 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+main {
+  background-color: aqua;
+  display: flex;
+  height: 130vh;
+  width: 80vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  color: white;
+  height: 20vh;
+  width: 75vw;
+}
+
+nav {
+  background-color: yellow;
+  display: flex;
+  justify-content: start;
+  
+  align-items: center;
+  height: 5vh;
+  width: 75vw;
+}
+
+.section1 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  width: 75vw;
+  text-align: justify;
+  align-items: center;
+  text-align: justify;
+  gap: 30px;
+}
+
+.section2 {
+  background-color: gray;
+  height: 50vh;
+  width: 75vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  flex-direction: row-reverse;
+  gap: 30px;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.imgHeader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+
+}
+
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+  height: 3%;
+  width: 75vw;
+  gap: 30px;
+}
