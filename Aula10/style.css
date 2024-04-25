@@ -1,0 +1,19 @@
+.novoTitulo {
+  color: red;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.btn0 {
+  margin: 10px 0;
+  padding: 8px 20px;
+  border: solid red;
+  background-color: beige;
+  cursor: pointer;
+}
+
+.btn0:hover {
+    background-color: aquamarine;
+    color: red;
+
+}
