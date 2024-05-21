@@ -4,7 +4,7 @@ fetch("https://663c040017145c4d8c34f84e.mockapi.io/Animais")
     const section2 = document.querySelector("#main section:nth-of-type(2)");
 
     data.forEach((animal) => {
-      const paragraph = document.createElement("p"); // Criando um novo parágrafo para cada animal
+      const paragraph = document.createElement("p"); 
       paragraph.textContent =
         animal.id +
         " - " +
@@ -12,8 +12,8 @@ fetch("https://663c040017145c4d8c34f84e.mockapi.io/Animais")
         " - " +
         animal.idade +
         " - " +
-        animal.raca; // Supondo que o objeto animal tenha uma propriedade 'name'
-      section2.appendChild(paragraph); // Adicionando o parágrafo à segunda seção
+        animal.raca; 
+      section2.appendChild(paragraph); 
     });
   });
 

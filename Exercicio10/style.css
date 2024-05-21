@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  display: block;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #111111;
+  color: #fff9e8;
+  font-size: 50px;
+  padding: 7px;
+}
+
+nav {
+  background-color: #2a2a2a;
+  color: #fff9e8;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+main {
+  height: 100vh;
+  background-color: #f6f6f6f6;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+#lista {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+  border: solid #277d77;
+  border-radius: 10px;
+  width: 500px;
+  gap: 20px;
+}
+
+#btn {
+  margin: 10px;
+  background-color: #277d77;
+  color: #fff9e8;
+  font-size: 20px;
+  border: 1px solid #fff9e8;
+  border-radius: 10px;
+  padding: 5px;
+  width: 150px;
+}
+
+#btn:hover {
+  background-color: #1b5652;
+  transition: 0.5s;
+}
+
+#btn:active {
+  background-color: #33a49c;
+  transition: 0.1s;
+}
+
+.cliente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 8px;
+  background-color: #111111;
+  border-radius: 10px;
+  color: #fff9e8;
+  border: 1px solid #fff9e8;
+}
+
+.cliente:hover {
+  background-color: #277d77;
+  transition: 0.5s;
+}
+
+#formulario {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5px;
+  width: 30px;
+  font-size: 20px;
+}
+
+#btn-cadastrar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  background-color: #277d77;
+  color: #fff9e8;
+  border: solid #fff9e8;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+#btn-cadastrar:hover{
+  background-color: #1b5652;
+  transition: 0.5s;
+}
+
+#btn-procurar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  background-color: #277d77;
+  color: #fff9e8;
+  border: solid #fff9e8;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+#btn-procurar:hover{
+  background-color: #1b5652;
+  transition: 0.5s;
+}
+
+#search{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #111111;
+  color: #fff9e8;
+  font-size: 20px;
+
+  padding: 20px;
+}

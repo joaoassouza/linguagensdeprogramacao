@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio10</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <p id="titulo">CRUD - J.Sobrinho</p>
+    </header>
+    <nav>
+      <ul>
+        <button id="btn"><a href="cadastrar.html">Cadastrar</a></button>
+        <button id="btn"><a href="index.html">Home</a></button>
+        <button id="btn"><a href="consultar.html">Consultar</a></button>
+      </ul>
+    </nav>
+    <main>
+      <section id="lista">
+        <div id="subtitulo">
+          <h1>Consultar clientes</h1>
+        </div>
+        <form>
+          <label for="procurar">Insira o ID procurado</label>
+          <input type="text" name="search" id="search">
+          <button type="button" id="btn-procurar" onclick="procurarCliente(event)">Procurar</button>
+        </form>
+        <div>
+          <!-- Mostrar cliente procurado -->
+          <p id="searchCliente">Cliente</p>
+        </div>
+      </section>
+    </main>
+    <footer>Desenvolvido por j.Sobrinho</footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

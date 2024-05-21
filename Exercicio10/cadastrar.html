@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio10</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <p id="titulo">CRUD - J.Sobrinho</p>
+    </header>
+    <nav>
+      <ul>
+        <button id="btn"><a href="cadastrar.html">Cadastrar</a></button>
+        <button id="btn"><a href="index.html">Home</a></button>
+        <button id="btn"><a href="consultar.html">Consultar</a></button>
+      </ul>
+    </nav>
+    <main>
+      <section id="lista">
+        <div id="subtitulo">
+          <h1>Cadastro de cliente</h1>
+        </div>
+        <div id="formulario">
+          <form action="myForm">
+            <label for="Nome" id="lb">Nome:</label>
+            <input type="text" name="name" id="name" required />
+
+            <label for="Email" id="lb">Email:</label>
+            <input type="text" name="email" id="email" required />
+
+            <label for="Idade" id="lb">Idade:</label>
+            <input type="text" name="idade" id="idade" required />
+          </form>
+        </div>
+        <button id="btn-cadastrar" onclick="cadastrarCliente()">CADASTRAR</button>
+      </section>
+    </main>
+    <footer>Desenvolvido por j.Sobrinho</footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
